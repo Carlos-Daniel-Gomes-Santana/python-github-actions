@@ -1,4 +1,4 @@
-from entity.title import Title
+from src.entity.title import Title
 
 def test_title():
     assert Title("Hello", len("Hello")).title == "Hello"
